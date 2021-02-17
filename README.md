@@ -18,6 +18,7 @@
  - для удаления продукта: *curl -XDELETE -H "Cookie: PHPSESSID=ifrhdc5b14q45qf882sn31c8iu" dionmagnus.ru/catalog/54*
  - для просмотра списка пользователей: *curl -H "Cookie: PHPSESSID=ifrhdc5b14q45qf882sn31c8iu" dionmagnus.ru/users*
  - для регистрации нового пользователя: *curl -XPOST -H "Content-Type: application/json" -d @user.json dionmagnus.ru/users*
+ - для удаления пользователя: *curl -XDELETE -H "Cookie: PHPSESSID=ifrhdc5b14q45qf882sn31c8iu" dionmagnus.ru/users/53*
  
  
  Пользователи регистрируются с правами ROLE_USER. Это им по сути ничего не дает.
